@@ -127,6 +127,40 @@ body{
   border-radius: 0; 
 }
 
+/* --- ESTILOS PARA LOS BOTONES DE LA PÁGINA PRINCIPAL --- */
+.boton-destacado {
+  background-color: #16a085;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.boton-destacado:hover {
+  background-color: #117a65;
+  color: white;
+}
+
+.boton-secundario {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-family: 'Century Gothic', sans-serif;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.boton-secundario:hover {
+  background-color: #1a252f;
+  color: white;
+}
+
 @keyframes moverCarrusel {
   0%, 25% { 
     transform: translateX(0); 
